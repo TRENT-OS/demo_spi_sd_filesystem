@@ -15,7 +15,6 @@ target_include_directories(${PROJECT_NAME} INTERFACE ${CMAKE_CURRENT_LIST_DIR})
 #-------------------------------------------------------------------------------
 project(test_filesystem C)
 
-include("components/RPI_SPI_MSD/CMakeLists.txt")
 
 DeclareCAmkESComponent(
     test_OS_FileSystem
